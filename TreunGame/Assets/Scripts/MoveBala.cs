@@ -5,6 +5,9 @@ using UnityEngine;
 public class MoveBala : MonoBehaviour
 {
     public float velocidad = 5;
+    public GameObject Bala;
+    float time = 0.0f;
+
     //private float dañoArco;
     //private float dañoEspada;
     //private float dañoPatitos;
@@ -12,6 +15,10 @@ public class MoveBala : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector2.up * velocidad * Time.deltaTime);
+        time += Time.deltaTime;
+        if(time>2){
+            Destroy(Bala);
+        }
     }
 
     //HACER QUE FUNCIONEN LAS COLISIONES
@@ -20,9 +27,6 @@ public class MoveBala : MonoBehaviour
             GetComponent<SpriteRenderer>().enabled = false;
             Destroy(gameObject,0.5f);
             //Hacer daño
-        }else if(collider.CompareTag("Finish")){
-            GetComponent<SpriteRenderer>().enabled = false;
-            Destroy(gameObject,0.5f);
         }
     }
 }

@@ -8,6 +8,7 @@ public class PowerUps : MonoBehaviour
         if(collision.CompareTag("Player")){
             GetComponent<SpriteRenderer>().enabled = false;
             Destroy(gameObject,0.5f);
+            
         }else if(collision.CompareTag("Finish")){
             GetComponent<SpriteRenderer>().enabled = false;
             Destroy(gameObject,0.5f);
