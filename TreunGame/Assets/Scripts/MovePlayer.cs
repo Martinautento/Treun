@@ -9,8 +9,10 @@ public class MovePlayer : MonoBehaviour
     public Transform controladorDisparo;
     public GameObject[] balas;
     public int TipoBala = 1;
-    public float TiempoDisparo = 0.2f;
+    public float TiempoDisparo = 0.4f;
     public bool disparo;
+    public int dañoPrincipal = 1;
+    public int dañoEspada;
 
     void Start()
     {
@@ -39,7 +41,8 @@ public class MovePlayer : MonoBehaviour
             StartCoroutine(TemporizadorBotas());
         }else if(collision.CompareTag("Pato")){
             TipoBala=0;
-            TiempoDisparo = 0.1f;
+            TiempoDisparo = 0.2f;
+            dañoPrincipal = 2;
             StartCoroutine(TemporizadorPatos());
         }else if(collision.CompareTag("Espada")){
             //
@@ -55,7 +58,8 @@ public class MovePlayer : MonoBehaviour
     IEnumerator TemporizadorPatos(){
         yield return new WaitForSeconds(15);
         TipoBala=1;
-        TiempoDisparo = 0.2f;
+        TiempoDisparo = 0.4f;
+        dañoPrincipal = 1;
     }
 
     IEnumerator EsperaDisparo(){

@@ -8,10 +8,6 @@ public class MoveBala : MonoBehaviour
     public GameObject Bala;
     float time = 0.0f;
 
-    //private float dañoArco;
-    //private float dañoEspada;
-    //private float dañoPatitos;
-
     void Update()
     {
         transform.Translate(Vector2.up * velocidad * Time.deltaTime);
@@ -25,7 +21,7 @@ public class MoveBala : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collider) {
         if(collider.CompareTag("Dragon")){ //en su momento añadir daño a torre y dragones
             GetComponent<SpriteRenderer>().enabled = false;
-            Destroy(gameObject,0.5f);
+            Destroy(Bala);
             //Hacer daño
         }
     }

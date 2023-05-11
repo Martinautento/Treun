@@ -26,12 +26,14 @@ public class Spawn : MonoBehaviour
     public void spawn(){
         Vector3 spawnPosition = new Vector3(0,0,0);
         spawnPosition = new Vector3(Random.Range(DownIzq.position.x,DownDer.position.x),Random.Range(UpDer.position.y,DownIzq.position.y),0);
-        if(cantEspadas<5){
+        //TRes chances para agarrar la espada
+        if(cantEspadas<3){
             randomPowerUP=Random.Range(0,2);
             GameObject powerUp = Instantiate(powerUps[randomPowerUP],spawnPosition,gameObject.transform.rotation);
             if(randomPowerUP==1){
                 cantEspadas++;
             }
+
         }else{
             randomPowerUP=Random.Range(0,2);
             if(randomPowerUP==1){
@@ -40,7 +42,5 @@ public class Spawn : MonoBehaviour
             GameObject powerUp = Instantiate(powerUps[randomPowerUP],spawnPosition,gameObject.transform.rotation);
              
         }
-        
-        //las cosas no salen nuevamente hasta que se acabe el tiempo de uso de estas
     }
 }
