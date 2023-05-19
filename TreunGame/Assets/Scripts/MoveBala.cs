@@ -16,13 +16,4 @@ public class MoveBala : MonoBehaviour
             Destroy(Bala);
         }
     }
-
-    //HACER QUE FUNCIONEN LAS COLISIONES
-    public void OnTriggerEnter2D(Collider2D collider) {
-        if(collider.CompareTag("Dragon")){ //en su momento añadir daño a torre y dragones
-            GetComponent<SpriteRenderer>().enabled = false;
-            Destroy(Bala);
-            //Hacer daño
-        }
-    }
 }

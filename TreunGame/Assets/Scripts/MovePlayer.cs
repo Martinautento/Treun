@@ -12,7 +12,7 @@ public class MovePlayer : MonoBehaviour
     public float TiempoDisparo = 0.4f;
     public bool disparo;
     public int dañoPrincipal = 1;
-    public int dañoEspada;
+    public int numeroAleatorio;
 
     void Start()
     {
@@ -36,16 +36,19 @@ public class MovePlayer : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        if(collision.CompareTag("Botas")){
-            runSpeed = 0.5f;
+        if(collision.CompareTag("Botas")){ 
+            numeroAleatorio = Random.Range(0,11);
+            if(numeroAleatorio<=7){
+                runSpeed = 0.5f;
+            }else{
+                runSpeed = 5.5f;
+            }
             StartCoroutine(TemporizadorBotas());
         }else if(collision.CompareTag("Pato")){
             TipoBala=0;
             TiempoDisparo = 0.2f;
             dañoPrincipal = 2;
             StartCoroutine(TemporizadorPatos());
-        }else if(collision.CompareTag("Espada")){
-            //
         }
     }
 
