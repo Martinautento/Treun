@@ -11,7 +11,6 @@ public class MovePlayer : MonoBehaviour
     public int TipoBala = 1;
     public float TiempoDisparo = 0.4f;
     public bool disparo;
-    public int dañoPrincipal = 1;
     public int numeroAleatorio;
 
     void Start()
@@ -37,8 +36,8 @@ public class MovePlayer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.CompareTag("Botas")){ 
-            numeroAleatorio = Random.Range(0,11);
-            if(numeroAleatorio<=7){
+            numeroAleatorio = Random.Range(0,6);
+            if(numeroAleatorio<=3){
                 runSpeed = 0.5f;
             }else{
                 runSpeed = 5.5f;
@@ -47,7 +46,6 @@ public class MovePlayer : MonoBehaviour
         }else if(collision.CompareTag("Pato")){
             TipoBala=0;
             TiempoDisparo = 0.2f;
-            dañoPrincipal = 2;
             StartCoroutine(TemporizadorPatos());
         }
     }
@@ -62,7 +60,6 @@ public class MovePlayer : MonoBehaviour
         yield return new WaitForSeconds(15);
         TipoBala=1;
         TiempoDisparo = 0.4f;
-        dañoPrincipal = 1;
     }
 
     IEnumerator EsperaDisparo(){
