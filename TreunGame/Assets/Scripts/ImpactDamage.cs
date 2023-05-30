@@ -20,12 +20,14 @@ public class ImpactDamage : MonoBehaviour
     IEnumerator RespawnDragon(){
         yield return new WaitForSeconds(30);
         GetComponent<SpriteRenderer>().enabled = true;
+            GetComponent<Collider2D>().enabled = true;
         vidaDragon=10;
     }
 
     public void killDragon(int vida){
         if(vida<=0){
             GetComponent<SpriteRenderer>().enabled = false;
+            GetComponent<Collider2D>().enabled = false;
             StartCoroutine(RespawnDragon());
             //aumentar contador en uno
         }
