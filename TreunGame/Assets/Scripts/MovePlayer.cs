@@ -12,10 +12,15 @@ public class MovePlayer : MonoBehaviour
     public float TiempoDisparo = 0.4f;
     public bool disparo;
     public int numeroAleatorio;
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip patos;
+    [SerializeField] private AudioClip flecha;
+
 
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
@@ -31,6 +36,11 @@ public class MovePlayer : MonoBehaviour
             disparo = true;
             StartCoroutine(EsperaDisparo());
             Disparo(TipoBala);
+            if(TipoBala==1){
+                audioSource.PlayOneShot(flecha);
+            }else{
+                audioSource.PlayOneShot(patos);
+            }
         }
     }
 
