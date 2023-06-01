@@ -5,7 +5,11 @@ using UnityEngine;
 public class ImpactDamage : MonoBehaviour
 {
     public int vidaDragon = 10;
-    //public int contador=0;
+    private AudioSource audioSource;
+    
+    private void Start() {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     void OnTriggerEnter2D(Collider2D collision){
         if(collision.gameObject.tag == "Bala"){
@@ -28,6 +32,7 @@ public class ImpactDamage : MonoBehaviour
         if(vida<=0){
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<Collider2D>().enabled = false;
+            audioSource.Play();
             StartCoroutine(RespawnDragon());
             //aumentar contador en uno
         }
