@@ -11,6 +11,7 @@ public class Daño : MonoBehaviour
     public float atkDEsq = 5;
     public int vidaPlayer = 100;
     public bool disparo;
+    [SerializeField] int time;
 
     void Start()
     {
@@ -22,13 +23,22 @@ public class Daño : MonoBehaviour
     void FixedUpdate(){
         if(disparo==false){
             disparo = true;
-            StartCoroutine(EsperaDisparo());
+            if(gameObject.tag == "Dragon"){
+                StartCoroutine(EsperaDisparoBebe());
+            }else{
+                StartCoroutine(EsperaDisparo());
+            }
             Disparo();
         }
     }
 
     IEnumerator EsperaDisparo(){
         yield return new WaitForSeconds(30);
+        disparo = false;
+    }
+
+    IEnumerator EsperaDisparoBebe(){
+        yield return new WaitForSeconds(time);
         disparo = false;
     }
 
