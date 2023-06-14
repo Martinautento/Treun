@@ -16,4 +16,9 @@ public class MoveBala : MonoBehaviour
             Destroy(Bala);
         }
     }
+    void OnTriggerEnter2D(Collider2D collision){
+        if(collision.gameObject.tag == "Dragon"){
+            Destroy(Bala);
+        }
+    }
 }

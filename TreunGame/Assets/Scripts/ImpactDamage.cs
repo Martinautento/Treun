@@ -5,8 +5,36 @@ using UnityEngine;
 public class ImpactDamage : MonoBehaviour
 {
     public int vidaDragon = 10;
+    private AudioSource audioSource;
+    
+    private void Start() {
+        audioSource = GetComponent<AudioSource>();
+    }
 
-    void Update(){
-        
+    void OnTriggerEnter2D(Collider2D collision){
+        if(collision.gameObject.tag == "Bala"){
+            vidaDragon--;
+            killDragon(vidaDragon);
+        }else if(collision.gameObject.tag == "Patito"){
+            vidaDragon-=2;
+            killDragon(vidaDragon);
+        }
+    }
+
+    IEnumerator RespawnDragon(){
+        yield return new WaitForSeconds(30);
+        GetComponent<SpriteRenderer>().enabled = true;
+            GetComponent<Collider2D>().enabled = true;
+        vidaDragon=10;
+    }
+
+    public void killDragon(int vida){
+        if(vida<=0){
+            GetComponent<SpriteRenderer>().enabled = false;
+            GetComponent<Collider2D>().enabled = false;
+            audioSource.Play();
+            StartCoroutine(RespawnDragon());
+            //aumentar contador en uno
+        }
     }
 }

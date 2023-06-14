@@ -9,7 +9,6 @@ public class Disparar : MonoBehaviour
     public GameObject[] balas;
 
     void Update(){
-        //añadir tiempo de espera para disparar
         if(Input.GetKey("e")||Input.GetKey("space")){
             Disparo();
         }
