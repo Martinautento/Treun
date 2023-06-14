@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 82a2ed4da9686124d90a631bf386e109
+guid: 60cff38a7426f5e43961e47a0a0e701e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -47,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -70,11 +72,12 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,19 +103,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Treun_muerte_0
+      name: DragonAN_spritesheep_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 16
-        width: 66
-        height: 74
+        x: 0
+        y: 1740
+        width: 237
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1106d7e84163f1049a1a149adf42e349
-      internalID: -1577236207
+      spriteID: 9aa7b42615f9fc847a63b6a5a248b805
+      internalID: 875951389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Treun_muerte_1
+      name: DragonAN_spritesheep_1
       rect:
         serializedVersion: 2
-        x: 166
-        y: 16
-        width: 66
-        height: 76
+        x: 0
+        y: 1260
+        width: 237
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +145,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6ac68781281d7c41964951a5489996e
-      internalID: -886740777
+      spriteID: c5b3c668ab0cd754784f0f4575dbcd7d
+      internalID: 49536274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonAN_spritesheep_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 237
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e010a48d3daaebc4ea72f9dd8847a132
+      internalID: -1497290037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonAN_spritesheep_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 237
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed1a485fad43e74dad6ef6d319aa53d
+      internalID: -2103536128
       vertices: []
       indices: 
       edges: []
@@ -157,11 +204,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Treun_muerte_1: -886740777
-      Treun_muerte_0: -1577236207
-  spritePackingTag: 
+      DragonAN_spritesheep_0: 875951389
+      DragonAN_spritesheep_1: 49536274
+      DragonAN_spritesheep_2: -1497290037
+      DragonAN_spritesheep_3: -2103536128
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
