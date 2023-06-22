@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Treun_DP1
+      name: Treun_DP_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 152
-        width: 76
-        height: 76
+        x: 20
+        y: 166
+        width: 60
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03a6bf76a2f407249853c218859b4c9f
-      internalID: -603546233
+      spriteID: c64e8bd0347e18243ad1a9045bfadec4
+      internalID: -29833371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Treun_DP2
+      name: Treun_DP_1
       rect:
         serializedVersion: 2
-        x: 138
-        y: 152
-        width: 76
-        height: 74
+        x: 148
+        y: 166
+        width: 60
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 233d549af23860c40812b21a08b5fda1
-      internalID: -1283944723
+      spriteID: 9f0f6d047a5fff54e84ddeac39b90867
+      internalID: 795153559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Treun_DP3
+      name: Treun_DP_2
       rect:
         serializedVersion: 2
-        x: 10
-        y: 24
-        width: 76
-        height: 76
+        x: 20
+        y: 38
+        width: 60
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c2881e6f702440458c689e908451b21
-      internalID: -1962920488
+      spriteID: dbb4ab4b5d0389348a19d7ccdcb0bbb3
+      internalID: -1771066199
       vertices: []
       indices: 
       edges: []
@@ -178,9 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Treun_DP3: -1962920488
-      Treun_DP2: -1283944723
-      Treun_DP1: -603546233
+      Treun_DP_0: -29833371
+      Treun_DP_2: -1771066199
+      Treun_DP_1: 795153559
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

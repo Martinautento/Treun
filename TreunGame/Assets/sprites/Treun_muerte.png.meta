@@ -108,10 +108,10 @@ TextureImporter:
       name: Treun_muerte_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 16
-        width: 66
-        height: 74
+        x: 48
+        y: 48
+        width: 54
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1106d7e84163f1049a1a149adf42e349
-      internalID: -1577236207
+      spriteID: 0e96903a0c795f94f83f87486c08a737
+      internalID: -1448702043
       vertices: []
       indices: 
       edges: []
@@ -129,10 +129,10 @@ TextureImporter:
       name: Treun_muerte_1
       rect:
         serializedVersion: 2
-        x: 166
-        y: 16
-        width: 66
-        height: 76
+        x: 176
+        y: 50
+        width: 54
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6ac68781281d7c41964951a5489996e
-      internalID: -886740777
+      spriteID: fc21029b6277e104b90a5e6a6875d084
+      internalID: 575787828
       vertices: []
       indices: 
       edges: []
@@ -157,8 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Treun_muerte_1: -886740777
-      Treun_muerte_0: -1577236207
+      Treun_muerte_1: 575787828
+      Treun_muerte_0: -1448702043
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

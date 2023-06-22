@@ -105,85 +105,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Treun_disparo1
+      name: Treun_disparo_0
       rect:
         serializedVersion: 2
-        x: 94
-        y: 238
-        width: 58
-        height: 76
+        x: 50
+        y: 166
+        width: 44
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1fb760799f3de54083d757b2052a8aa
-      internalID: 1916720769
+      spriteID: ca087b310f8535c45af1b315ba5701c8
+      internalID: 1452854798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Treun_disparo2
+      name: Treun_disparo_1
       rect:
         serializedVersion: 2
-        x: 286
-        y: 238
-        width: 58
-        height: 86
+        x: 178
+        y: 166
+        width: 44
+        height: 58
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2955901a8b832244a708321b13075a2
-      internalID: 910425596
+      spriteID: a3154de60d0318c4791aa116fe630cfb
+      internalID: 360020518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Treun_disparo3
+      name: Treun_disparo_2
       rect:
         serializedVersion: 2
-        x: 94
-        y: 46
-        width: 58
-        height: 92
+        x: 50
+        y: 38
+        width: 44
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fa107d6086bebc43b5f6265ba10b51f
-      internalID: 417274497
+      spriteID: bf7d3b041afb9c54ba0b6995811fa90c
+      internalID: 1862190417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Treun_disparo4
+      name: Treun_disparo_3
       rect:
         serializedVersion: 2
-        x: 286
-        y: 46
-        width: 58
-        height: 74
+        x: 178
+        y: 38
+        width: 44
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fb338bbbe755a547af9d21a28ad215d
-      internalID: 1987644697
+      spriteID: 5be83c50bf750cd4087c2424c5adad64
+      internalID: -1352446970
       vertices: []
       indices: 
       edges: []
@@ -199,10 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Treun_disparo2: 910425596
-      Treun_disparo3: 417274497
-      Treun_disparo4: 1987644697
-      Treun_disparo1: 1916720769
+      Treun_disparo_1: 360020518
+      Treun_disparo_2: 1862190417
+      Treun_disparo_3: -1352446970
+      Treun_disparo_0: 1452854798
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
