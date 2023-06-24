@@ -22,7 +22,7 @@ public class ImpactDamage : MonoBehaviour
     }
 
     IEnumerator RespawnDragon(){
-        yield return new WaitForSeconds(30);
+        yield return new WaitForSeconds(20);
         GetComponent<SpriteRenderer>().enabled = true;
             GetComponent<Collider2D>().enabled = true;
         vidaDragon=10;

@@ -2207,8 +2207,8 @@ MonoBehaviour:
   runSpeed: 2
   controladorDisparo: {fileID: 1496218301}
   balas:
-  - {fileID: 2539633698843593087, guid: 4eef9e6b1209f13459785542c4f52434, type: 3}
-  - {fileID: 6260891396787555433, guid: 584ddb4f7e0388b4a9263ef3a31c82f1, type: 3}
+  - {fileID: 6681355668112462627, guid: 23d2573354ffeb044969a292c5d10bf2, type: 3}
+  - {fileID: 8532917121101395180, guid: 28c9202b2260dff40ad3ce48596cdbde, type: 3}
   TipoBala: 1
   TiempoDisparo: 0.3
   disparo: 0
