@@ -7,9 +7,6 @@ public class Daño : MonoBehaviour
     public GameObject balaFuego;
     public Transform controladorDisparo;
     Rigidbody2D rb2D;
-    public float atkDMovil = 1;
-    public float atkDEsq = 5;
-    public int vidaPlayer = 100;
     public bool disparo;
     [SerializeField] int time;
 

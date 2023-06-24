@@ -14,12 +14,12 @@ public class PowerUps : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.CompareTag("Player")){
             GetComponent<SpriteRenderer>().enabled = false;
-            Destroy(gameObject,0.5f);
+            Destroy(gameObject,0.3f);
             audioSource.Play();
             
         }else if(collision.CompareTag("Finish")){
             GetComponent<SpriteRenderer>().enabled = false;
-            Destroy(gameObject,0.5f);
+            Destroy(gameObject,0.3f);
         }
     }
 }

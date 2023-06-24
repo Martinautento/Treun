@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7939138164799688738}
   m_Layer: 0
   m_Name: Boladefuego2_spritesheep_0
-  m_TagString: Untagged
+  m_TagString: BolaFuegoEsquina
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

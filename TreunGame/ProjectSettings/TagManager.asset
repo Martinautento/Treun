@@ -11,6 +11,8 @@ TagManager:
   - Bala
   - Patito
   - P
+  - BolaFuegoEsquina
+  - BolaFuegoNormal
   layers:
   - Default
   - TransparentFX
