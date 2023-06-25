@@ -484,6 +484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
+  x: 0
+  textoContador: {fileID: 1482413482}
 --- !u!114 &30947732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -896,6 +898,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
+  x: 0
+  textoContador: {fileID: 1482413482}
 --- !u!114 &147219123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1969,6 +1973,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
+  x: 0
+  textoContador: {fileID: 1482413482}
 --- !u!114 &570288290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2318,6 +2324,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
+  x: 0
+  textoContador: {fileID: 1482413482}
 --- !u!114 &600017566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2796,7 +2804,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991549070}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2808,7 +2816,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000061035156, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &991549072
@@ -2931,7 +2939,7 @@ GameObject:
   - component: {fileID: 1059604095}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3197,13 +3205,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059604087}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 94352eb07c369eb42ba1dfea03c2998e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 100
-  maximoVida: 100
   barraVida: {fileID: 991549073}
 --- !u!1 &1180904588
 GameObject:
@@ -3613,6 +3620,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
+  x: 0
+  textoContador: {fileID: 1482413482}
 --- !u!114 &1467828877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4060,6 +4069,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
+  x: 0
+  textoContador: {fileID: 1482413482}
 --- !u!114 &1565297929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5009,6 +5020,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
+  x: 0
+  textoContador: {fileID: 1482413482}
 --- !u!114 &1972794978
 MonoBehaviour:
   m_ObjectHideFlags: 0

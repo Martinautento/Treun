@@ -14,4 +14,11 @@ public class Buttons : MonoBehaviour
     public void BackToMenu(){
         SceneManager.LoadScene("Menu");
     }
+    public void Exit(){
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #else
+                Application.Quit();
+        #endif
+    }
 }

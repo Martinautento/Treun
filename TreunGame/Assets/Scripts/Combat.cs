@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Combat : MonoBehaviour
 {
-    [SerializeField] private float vida;
-    [SerializeField] private float maximoVida;
-    [SerializeField] private BarraVidaFunciones barraVida;
+    [SerializeField] public float vida = 100;
+    [SerializeField] public BarraVidaFunciones barraVida;
+
+
 
     private void Start() {
-        vida = maximoVida;
         barraVida.InicializarBarraVida(vida);
     }
     public void HacerDaño(float daño){
@@ -19,6 +19,7 @@ public class Combat : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
     void OnTriggerEnter2D(Collider2D collision){
         if(collision.gameObject.tag == "BalaFuegoNormal"){
             HacerDaño(2);
