@@ -29,12 +29,11 @@ public class ImpactDamage : MonoBehaviour
     }
 
     public void killDragon(int vida){
-        AumentarContador.x++;
         if(vida<=0){
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<Collider2D>().enabled = false;
             audioSource.Play();
-
+            AumentarContador.x++;
             StartCoroutine(RespawnDragon());
         }
     }
