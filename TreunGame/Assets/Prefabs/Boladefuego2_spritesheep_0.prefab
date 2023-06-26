@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7939138164799688738}
   m_Layer: 0
   m_Name: Boladefuego2_spritesheep_0
-  m_TagString: BolaFuegoEsquina
+  m_TagString: BolaFuego
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132,7 +132,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.043823957, y: -0.23664927}

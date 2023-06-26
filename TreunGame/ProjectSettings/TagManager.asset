@@ -10,9 +10,8 @@ TagManager:
   - Espada
   - Bala
   - Patito
-  - P
-  - BolaFuegoEsquina
   - BolaFuegoNormal
+  - BolaFuego
   layers:
   - Default
   - TransparentFX

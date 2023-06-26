@@ -5,21 +5,24 @@ using UnityEngine.UI;
 
 public class BarraVidaFunciones : MonoBehaviour
 {
-    private Slider slider;
+    public Image Vida;
+    public float VidaActual;
+    public float VidaMaxima=100;
 
-    private void Start() {
-        slider = GetComponent<Slider>();
+    private void Update() {
+        Vida.fillAmount = VidaActual/VidaMaxima;
     }
-
-    public void CambiarVidaMax(float VidaMax){
-        slider.maxValue = VidaMax;
+    public void HacerDaño(float daño){
+        VidaActual-=daño;
+        if(VidaActual<=0){
+            Destroy(gameObject);
+        }
     }
-    public void CambiarVidaActual(float cantidadVida){
-        slider.value = cantidadVida;
-    }
-
-    public void InicializarBarraVida(float cantidadVida){
-        CambiarVidaMax(cantidadVida);
-        CambiarVidaActual(cantidadVida);
+    void OnTriggerEnter2D(Collider2D collision){
+        if(collision.gameObject.tag == "BolaFuegoNormal"){
+            HacerDaño(4);
+        }else if(collision.gameObject.tag == "BolaFuego"){
+            HacerDaño(10);
+        }
     }
 }

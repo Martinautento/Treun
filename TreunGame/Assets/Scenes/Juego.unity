@@ -484,8 +484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
-  x: 0
-  textoContador: {fileID: 1482413482}
+  kill: 0
 --- !u!114 &30947732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -898,8 +897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
-  x: 0
-  textoContador: {fileID: 1482413482}
+  kill: 0
 --- !u!114 &147219123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1973,8 +1971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
-  x: 0
-  textoContador: {fileID: 1482413482}
+  kill: 0
 --- !u!114 &570288290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2324,8 +2321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
-  x: 0
-  textoContador: {fileID: 1482413482}
+  kill: 0
 --- !u!114 &600017566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2789,7 +2785,6 @@ GameObject:
   m_Component:
   - component: {fileID: 991549071}
   - component: {fileID: 991549072}
-  - component: {fileID: 991549073}
   m_Layer: 5
   m_Name: Barra de vida
   m_TagString: Untagged
@@ -2870,18 +2865,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &991549073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991549070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be77e15d9da888b468b043e28a97b4c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1034300306
 GameObject:
   m_ObjectHideFlags: 0
@@ -2936,7 +2919,7 @@ GameObject:
   - component: {fileID: 1059604090}
   - component: {fileID: 1059604089}
   - component: {fileID: 1059604088}
-  - component: {fileID: 1059604095}
+  - component: {fileID: 1059604096}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3198,20 +3181,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1059604095
+--- !u!114 &1059604096
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059604087}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94352eb07c369eb42ba1dfea03c2998e, type: 3}
+  m_Script: {fileID: 11500000, guid: be77e15d9da888b468b043e28a97b4c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 100
-  barraVida: {fileID: 991549073}
+  Vida: {fileID: 88934928}
+  VidaActual: 100
+  VidaMaxima: 100
 --- !u!1 &1180904588
 GameObject:
   m_ObjectHideFlags: 0
@@ -3620,8 +3604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
-  x: 0
-  textoContador: {fileID: 1482413482}
+  kill: 0
 --- !u!114 &1467828877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4069,8 +4052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
-  x: 0
-  textoContador: {fileID: 1482413482}
+  kill: 0
 --- !u!114 &1565297929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5020,8 +5002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaDragon: 10
-  x: 0
-  textoContador: {fileID: 1482413482}
+  kill: 0
 --- !u!114 &1972794978
 MonoBehaviour:
   m_ObjectHideFlags: 0

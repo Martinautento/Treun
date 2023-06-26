@@ -5,14 +5,14 @@ using UnityEngine;
 public class Combat : MonoBehaviour
 {
     [SerializeField] public float vida = 100;
-    [SerializeField] public BarraVidaFunciones barraVida;
+    //[SerializeField] public BarraVidaFunciones barraVida;
 
 
 
     private void Start() {
-        barraVida.InicializarBarraVida(vida);
+        //barraVida.InicializarBarraVida(vida);
     }
-    public void HacerDaño(float daño){
+    /*public void HacerDaño(float daño){
         vida-=daño;
         barraVida.CambiarVidaActual(vida);
         if(vida<=0){
@@ -26,5 +26,5 @@ public class Combat : MonoBehaviour
         }else if(collision.gameObject.tag == "BalaFuegoEsquina"){
             HacerDaño(5);
         }
-    }
+    }*/
 }
