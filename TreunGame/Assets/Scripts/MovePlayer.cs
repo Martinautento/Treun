@@ -21,6 +21,7 @@ public class MovePlayer : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
+        Time.timeScale = 1f;
     }
 
     void FixedUpdate()
