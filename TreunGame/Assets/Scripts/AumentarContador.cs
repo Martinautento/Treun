@@ -5,21 +5,13 @@ using UnityEngine.UI;
 
 public class AumentarContador : MonoBehaviour
 {
-    public int x = 0;
-    public Text textoContador;
+    public static int x = 0;
+    Text textoContador;
 
-    // Método para actualizar el texto del contador
-    private void ActualizarContador()
-    {
-        textoContador.text = x.ToString() + "/100";
+    private void Start() {
+        textoContador = GetComponent<Text>();
     }
-
-    // Método para aumentar el contador en uno
-    public void ModificarContador(){
-        if (x < 100)
-        {
-            x++;
-            ActualizarContador();
-        }
+    private void Update() {
+        textoContador.text = x + "/100";
     }
 }

@@ -30,7 +30,7 @@ public class Daño : MonoBehaviour
     }
 
     IEnumerator EsperaDisparo(){
-        yield return new WaitForSeconds(30);
+        yield return new WaitForSeconds(15);
         disparo = false;
     }
 

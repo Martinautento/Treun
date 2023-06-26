@@ -7,7 +7,6 @@ public class ImpactDamage : MonoBehaviour
 {
     public int vidaDragon = 10;
     private AudioSource audioSource;
-    public bool kill=false;
     
     private void Start() {
         audioSource = GetComponent<AudioSource>();
@@ -27,15 +26,15 @@ public class ImpactDamage : MonoBehaviour
         GetComponent<SpriteRenderer>().enabled = true;
         GetComponent<Collider2D>().enabled = true;
         vidaDragon=10;
-        kill=false;
     }
 
     public void killDragon(int vida){
+        AumentarContador.x++;
         if(vida<=0){
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<Collider2D>().enabled = false;
             audioSource.Play();
-            kill = true;
+
             StartCoroutine(RespawnDragon());
         }
     }
