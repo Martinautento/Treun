@@ -22,6 +22,7 @@ public class AumentarContador : MonoBehaviour
         // Obtiene el componente de texto adjunto al objeto y lo asigna a la variable "textoContador".
         textoContador = GetComponent<Text>();
     //activa el menú de victoria y detiene el tiempo en el juego.
+    }
     private void ActivarYouWIN(){
         // Activa el objeto "menuVictory".
         menuVictory.SetActive(true);
