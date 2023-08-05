@@ -21,3 +21,10 @@ Este script aumenta el contador de dragones y muestra un menú de victoria cuand
 ## Funcionamiento
 
 Este script se puede adjuntar a un objeto en Unity y se ejecutará automáticamente durante el juego. Cada vez que se llama al método `Update()`, se verifica si el contador `x` es menor que 100. Si es menor, el texto del componente `textoContador` mostrará el valor actual de `x`. Cuando el contador `x` llega a 100 o más, se muestra el menú de victoria y el tiempo del juego se detiene.
+
+
+
+
+<p align="center">
+  <img src="/Imagenes/Logo_LunaGhost.png" alt="LunaGhost" width="100" height="100">
+</p>
