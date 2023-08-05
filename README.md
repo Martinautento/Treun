@@ -20,23 +20,23 @@ Nuestro proyecto, Braighde Treun, es un juego inspirado en el clásico "Space In
 
 Desde el inicio de nuestro proyecto, tuvimos claro cuál era nuestro objetivo y cómo lo desarrollaríamos. Cada integrante del equipo se enfocó en realizar su parte y mostraba sus avances en nuestras reuniones en el laboratorio. Si alguien tenía alguna sugerencia para mejorar, aprovechábamos nuestras sesiones para revisar y ajustar el proyecto.
 
-### Primer Imagen:
+![Primera imagen](/Imagenes/Primer_imagen.png)
 
 Durante esta etapa, ya contábamos con el movimiento del personaje y la aparición de los recolectables. Inicialmente, buscábamos un fondo que simulara un atardecer, pero debido a problemas de visibilidad, decidimos cambiarlo a un color azul. En un principio, el objetivo del juego era vencer a un jefe.
 
-### Segunda Imagen:
+![Segunda imagen](/Imagenes/Segunda_imagen.jpg)
 
 En esta fase del proyecto, habíamos cambiado el fondo y definido la velocidad del movimiento del personaje. También se introdujeron los sprites de los dragones grandes, y modificamos el objetivo del juego para eliminar una cierta cantidad de dragones pequeños.
 
-### Tercer Imagen:
+![Tercer imagen](/Imagenes/Tercer_imagen.jpg)
 
 En este punto, los dragones bebés ya tenían animaciones y se movían por el mapa con colisiones implementadas. Además, el juego ya contaba con una selección de sonidos, y las funciones de los recolectables estaban en funcionamiento.
 
-### Cuarta Imagen:
+![Cuarta imagen](/Imagenes/Cuarta_imagen.jpg)
 
 Presentamos el menú que se utilizó para el juego, donde ya se habían incluido los sprites de la protagonista. También se realizaron cambios en los sonidos del juego y se resolvió un error que impedía que las bolas de fuego colisionaran. Además, se agregaron los sprites que faltaban.
 
-### Quinta Imagen:
+![Quinta imagen](/Imagenes/Quinta_imagen.jpg)
 
 Los últimos cambios que se hicieron al juego fueron los siguientes: se cambió el fondo por uno en 3D, se implementó un contador, se agregó una barra de vida para el jugador, se modificó el tamaño de algunos sprites y se crearon menús para la muerte del jugador y para la victoria.
 
