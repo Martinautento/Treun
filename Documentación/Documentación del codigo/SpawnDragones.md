@@ -38,6 +38,11 @@ Este script debe ser adjuntado a un objeto en el juego que controlará el spawn 
 
 
 
+
+
+
+
 <p align="center">
   <img src="/Imagenes/Logo_LunaGhost.png" alt="LunaGhost" width="100" height="100">
+  **Documentado por Luna Acosta**
 </p>

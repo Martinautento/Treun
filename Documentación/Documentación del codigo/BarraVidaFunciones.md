@@ -30,6 +30,11 @@ Cuando el jugador colisiona con una "BolaFuegoNormal" o "BolaFuego", el método 
 
 
 
+
+
+
+
 <p align="center">
   <img src="/Imagenes/Logo_LunaGhost.png" alt="LunaGhost" width="100" height="100">
+  **Documentado por Luna Acosta**
 </p>

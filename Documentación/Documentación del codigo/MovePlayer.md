@@ -52,6 +52,11 @@ Este script debe ser adjuntado al objeto que representa al jugador en Unity. Con
 
 
 
+
+
+
+
 <p align="center">
   <img src="/Imagenes/Logo_LunaGhost.png" alt="LunaGhost" width="100" height="100">
+  **Documentado por Luna Acosta**
 </p>
