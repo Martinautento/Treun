@@ -39,6 +39,8 @@ public class AumentarContador : MonoBehaviour
             textoContador.text = "100/100";
             // Llama al método "ActivarYouWIN" para mostrar el menú de victoria.
             ActivarYouWIN();
+            x=0;
+            textoContador.text = x + "/100";
         }
     }
 }

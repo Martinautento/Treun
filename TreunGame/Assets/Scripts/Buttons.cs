@@ -9,19 +9,12 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
+    public void CambioEscena(string Nombre)
+    {
+        //Usando "SceneManager" cambiamos de escena mandando el nombre de la escena como parametro
+        SceneManager.LoadScene(Nombre);
+    }
 
-    public void EscenaJuego(){
-        //carga la escena de juego
-        SceneManager.LoadScene("Juego");
-    }
-    public void EscenaCreditos(){
-        //carga la escena de creditos
-        SceneManager.LoadScene("Creditos");
-    }
-    public void BackToMenu(){
-        //carga la escena de menu
-        SceneManager.LoadScene("Menu");
-    }
     public void Exit(){
         #if UNITY_EDITOR
         //si está en el editor de Unity desactiva el modo de juego
